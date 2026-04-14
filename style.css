@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.continer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: rgb(255, 255, 255);
+    color:  rgb(36, 36, 36);
+    display: block;
+    border-radius: 10px;
+    font-weight: 600;
+
+}
+header {
+    background-image: url("img/pexels-linh-tran-553086511-36421419.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+section{
+    padding: 70px 20px;
+    background: rgb(210, 210, 210);
+}
+.wraper-section{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+header .wraper-section{
+    justify-content: space-between;
+
+}
+.logo span{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    
+}
+.manu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+.manu li a{
+    text-decoration: none;
+    padding: 10px 12px;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+
+}
+.manu li a:hover{
+    background: rgb(93, 93, 93);
+
+}
+.hero-section div{
+    color: white;
+    padding: 20px; 
+
+    
+}
+.hero-section div h1{
+    font-size: 30px;
+    padding: 20px 0;
+
+}
+.hero-section div p{
+    font-size: 
+    18px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+.hero-section div .btn{
+    display: inline-block;
+
+}
+.hero-section img{
+    max-width: 600px;
+}
+@media (max-width:900px) {
+    
+}
+
+@media (max-width:900px) {
+    .hero-section{
+        flex-direction: column;
+        width: 100%;
+        gap: 40;
+    }
+    .hero-section div{
+        text-align: center;
+    }
+    .hero-section img{
+        width: 80%;
+    }
+    .top-manu {
+        flex-direction: column;
+        gap: 10;
+                
+    }
+    
+}
+.trasted-sec{
+    background: green;
+}
+
+/* Trused section / 2nd section */
+.trast h6{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 30px;
+
+}
+.trasted-wraper{
+    justify-content: space-around;
+}
+@media (max-width:900px) {
+    .trasted-wraper{
+        flex-wrap: wrap;          
+        gap: 20px ;   
+    }
+}
+.solution .top-text{
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+.solution .top-text h2{
+    font-size: 40px;
+    padding: 20px;   
+
+
+}
+.solution .top-text p{
+    line-height: 1.5;
+    font-size: 18px;
+    padding-bottom: 30px;
+
+}
+.solution-text {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 500px;
+
+}
+.solution-text span{
+    font-size: 16px;
+    padding: 10px 0;
+    display: block;
+
+
+}
+.solution-text h3{
+    font-size: 24px;
+
+
+
+
+}
+.card{
+    justify-content: space-between;
+    background: gold;
+    padding: 20px;
+
+
+}
+@media (max-width:600px) {
+    .card{
+        flex-direction: column;        
+
+    }
+    .solution-text{
+        text-align: center;
+        padding-bottom: 30px;
+
+    }
+    
+}
+
