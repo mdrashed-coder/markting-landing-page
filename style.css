@@ -277,10 +277,84 @@ header .wraper-section{
 
     
 }
-
-
-.testmonial-text{
-    max-width: 500px;
+.test-rap{
+    justify-content: space-around;
 }
 
 
+.testmonial-text p{
+    font-size: 18px;
+    max-width: 400px;
+    padding-bottom: 30px;
+    
+}
+.testmonial-text div p{
+    font-size: 16px;
+    
+}
+@media (max-width:600px) {
+    .test-rap{
+        flex-direction: column;
+        
+    }
+    
+}
+
+.bg{
+    background: violet;
+    padding: 30px;
+    border-radius: 15px;
+
+
+}
+.bg{
+    background: rgb(81, 45, 81);
+    padding: 30px;
+    border-radius: 15px;
+
+}
+.newsletter .top-text {
+    color: white;
+
+}
+.newsletter .top-text a{
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    background: rgb(41, 37, 37);
+    color: white;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+.newsletter .top-text a:hover{
+    background: rgb(110, 99, 99)    
+    
+
+}
+footer{
+    padding: 50px 30px;
+    background: rgb(29, 10, 10);
+}
+.footer{
+    justify-content: space-around;
+
+}
+.footer .wraper-section{
+    justify-content: space-between;
+    color: white;
+
+}
+.footer .wraper-section i{
+    font-size: 30px;
+    margin: 5px;
+}
+.footer .wraper-section i:hover{
+    color: rgb(187, 187, 187);
+}
+@media (max-width:600px) {
+    .footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
