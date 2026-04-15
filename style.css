@@ -27,8 +27,7 @@ header {
     background-size: cover; 
 }
 section{
-    padding: 70px 20px;
-    background: rgb(210, 210, 210);
+    padding: 50px 20px;
 }
 .wraper-section{
     display: flex;
@@ -131,19 +130,19 @@ header .wraper-section{
         gap: 20px ;   
     }
 }
-.solution .top-text{
+ .top-text{
     text-align: center;
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
 
 }
-.solution .top-text h2{
+ .top-text h2{
     font-size: 40px;
     padding: 20px;   
 
 
 }
-.solution .top-text p{
+ .top-text p{
     line-height: 1.5;
     font-size: 18px;
     padding-bottom: 30px;
@@ -164,14 +163,29 @@ header .wraper-section{
 }
 .solution-text h3{
     font-size: 24px;
+    padding: 10px 0;
+
+}
+.solution-text p{
+    line-height: 1.5;
+    font-size: 18px;
+
+}
+.solution-text a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 12px;
+    background: rgb(93, 92, 92);
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
 
 
 
 
 }
 .card{
-    justify-content: space-between;
-    background: gold;
+    justify-content: space-around;
     padding: 20px;
 
 
@@ -186,6 +200,87 @@ header .wraper-section{
         padding-bottom: 30px;
 
     }
+    .card img{
+        width: 100%;
+
+    }
     
 }
+
+.Countdown { 
+    background: #231A36;
+    color: white;
+    
+}
+.Countdown .count{ 
+    justify-content: space-evenly;
+    padding: 20px 0;
+    
+}
+.Countdown .count span{
+    font-size: 40px; 
+    font-weight: bolder;
+    padding: 20px 0;
+
+}
+.Countdown .count p{
+    font-size: 14px;
+       
+
+}
+@media (max-width:600px) {
+    .Countdown .count{ 
+    flex-direction: column;
+    gap: 20px;
+        
+}
+
+    
+}
+
+
+.serv{
+    justify-content: space-around;
+    gap:10px;
+}
+
+.services .serv .serv-text{
+    background: #e2e2e2;
+    padding: 20px;
+
+}
+
+.serv-text p{
+    font-size: 16px;
+    
+}
+.serv-text .card-text-serv span{
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.serv-text .card-text-serv p{
+    font-size: 10px;
+    
+}
+.serv-text a{
+    text-decoration: none;
+}
+
+
+@media (max-width:600px) {
+    .serv{ 
+    flex-direction: column;
+    gap: 20px;
+        
+}
+
+    
+}
+
+
+.testmonial-text{
+    max-width: 500px;
+}
+
 
